@@ -3,12 +3,15 @@
 
 __author__ = "Simon Liu"
 
+
 import os
+import time
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 TEMPLETE_FILE_PATH = os.path.join('/'.join(os.path.dirname(__file__).split('/')[:-1]), 'Templete')
+
 IMAGE_FORMAT = ('BMP', 'DIB', 'JPEG', 'JPG', 'JPE', 'PNG', 'PBM', 'PGM', 'PPM', 'SR', 'RAS', 'TIFF', 'TIF', 'EXR', 'JP2')
 VIDEO_FORMAT = ('AVI', 'MPG', 'MPE', 'MPEG', 'DAT', 'VOB', 'ASF', '3PG', 'MP4', 'RMVB', 'FLV', 'MOV')
 
@@ -68,6 +71,7 @@ class ImgBasicOperation(object):
         """
         img = cv2.imread(self.getfilepath(filename), self.parse_imageread_model(flag))
         if img is not None:
+            # print cv2.split(img)[0]
             return img
         else:
             raise ImportError, 'Image File read ERROR!'
@@ -142,6 +146,11 @@ class ImgBasicOperation(object):
         plt.imshow(img)
         plt.show()
 
+    def singel_pixel_modify(self, filename, y, x, ch, pixel):
+        img = self.acquire_image_info(filename)
+        # img.itemset((y, x, ch), pixel)
+        print cv2.split(img)
+
 
 class VideoBasicOperation(object):
     def __init__(self):
@@ -156,9 +165,9 @@ class VideoBasicOperation(object):
         """
         try:
             cap = cv2.VideoCapture(flag)
-            print cap
+            time.sleep(1)
             if cap.isOpened():
-                cls.cap = cap
+                return cap
             else:
                 cap.open('')
         except Exception as e:
@@ -181,7 +190,7 @@ class VideoBasicOperation(object):
         :param outvideo:   the saving video file name.
         :return:
         """
-        self.get_capture_video(0)
+        self.cap = self.get_capture_video(flag=0)
         if isinstance(self.cap, cv2.VideoCapture):
             out_video = cv2.VideoWriter(self.getfilepath(outvideo), self.fourcc, 20.0, (120, 150))
             # width_ret = self.cap.set(3, 320)
@@ -206,7 +215,7 @@ class VideoBasicOperation(object):
         :param videofile: video name to be displayed.
         :return:
         """
-        self.cap = cv2.VideoCapture(self.getfilepath(videofile))
+        self.cap = self.get_capture_video(self.getfilepath(videofile))
         # print self.cap.read()[1]
         # print self.cap.get(cv2.CAP_PROP_FPS)                # get Frame_rate
         # print self.cap.get(cv2.CAP_PROP_FRAME_COUNT)        # get total Frame_rate
@@ -276,11 +285,6 @@ class DrawingBasicOperation(object):
         cv2.putText(self.bg_img, text='Simon', org=(10, 400), fontFace=font, fontScale=1, color=(255, 255, 255), thickness=1,bottomLeftOrigin=True)#text, org, fontFace, fontScale, color, thickness=
         cv2.putText(self.bg_img, text='OpenCV', org=(10, 500), fontFace=font, fontScale=4, color=(255, 255, 255), thickness=2) #text, org, fontFace, fontScale, color, thickness=
         self.show_window(self.bg_img)
-
-
-if __name__ == '__main__':
-    videoOP = DrawingBasicOperation()
-    videoOP.puttext_to_image()
 
 
 

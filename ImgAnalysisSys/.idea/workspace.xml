@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c247167-6ccc-47a4-9850-c55caf2025b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Model/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engineerfun/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engineerfun/addlogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/BasicOperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/BasicOperation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templete/output.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templete/test.avi" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,76 +22,67 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpeg" value="1" />
+          <entry key="jpeg" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="png" value="2" />
-          <entry key="py" value="5" />
+          <entry key="png" value="5" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="4" />
-          <entry key="Python" value="5" />
+          <entry key="Image" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2702" />
+          <entry key="py" value="4892" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2702" />
+          <entry key="Python" value="4892" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model/BasicOperation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="289">
+              <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
               <folding>
-                <element signature="e#69#78#0" expanded="true" />
-                <element signature="e#295#4211#0" />
-                <marker date="1557828820976" expanded="true" signature="251:4973" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="302:338" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="1017:1223" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="1272:1401" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="3522:3527" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="3522:3672" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="3796:4839" ph="..." />
-                <marker date="1557828820976" expanded="true" signature="4094:4301" ph="..." />
+                <element signature="e#70#79#0" expanded="true" />
+                <element signature="e#1925#2039#0" />
+                <element signature="e#2552#2870#0" />
+                <element signature="e#2925#3108#0" />
+                <element signature="e#3164#3558#0" />
+                <element signature="e#3608#4335#0" />
+                <element signature="e#4383#5029#0" />
+                <element signature="e#5086#5343#0" />
+                <element signature="e#7724#7750#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/test.py">
+        <entry file="file://$PROJECT_DIR$/Engineerfun/addlogo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="245">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
-                <element signature="e#231#249#0" expanded="true" />
+                <marker date="1558013527488" expanded="true" signature="135:140" ph="..." />
+                <marker date="1558013527488" expanded="true" signature="250:259" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -104,16 +102,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Model/__init__.py" />
-        <option value="$PROJECT_DIR$/Model/BasicOperation.py" />
         <option value="$PROJECT_DIR$/Model/test.py" />
+        <option value="$PROJECT_DIR$/Engineerfun/__init__.py" />
+        <option value="$PROJECT_DIR$/Model/__init__.py" />
+        <option value="$PROJECT_DIR$/Engineerfun/addlogo.py" />
+        <option value="$PROJECT_DIR$/Model/BasicOperation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="width" value="1209" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,16 +130,10 @@
               <item name="ImgAnalysisSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImgAnalysisSys" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ImgAnalysisSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImgAnalysisSys" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BasicOperation">
+  <component name="RunManager" selected="Python.addlogo">
     <configuration name="BasicOperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImgAnalysisSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +170,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model/BasicOperation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="addlogo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ImgAnalysisSys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Engineerfun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Engineerfun/addlogo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,9 +223,11 @@
     <list>
       <item itemvalue="Python.BasicOperation" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.addlogo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.addlogo" />
         <item itemvalue="Python.BasicOperation" />
         <item itemvalue="Python.test" />
       </list>
@@ -228,23 +247,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="49" y="23" width="1209" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14094433" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2003367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.46385542" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46385542" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -260,12 +279,7 @@
     <entry file="file://$PROJECT_DIR$/Templete/Peppa.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/test.png" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-297963640/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -273,38 +287,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/test.py">
+    <entry file="file://$PROJECT_DIR$/Model/test.py" />
+    <entry file="file://$PROJECT_DIR$/Templete/box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/cm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#231#249#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3136" column="29" selection-start-line="3136" selection-start-column="25" selection-end-line="3136" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/test.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/opencv_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/addlogo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1558013527488" expanded="true" signature="135:140" ph="..." />
+            <marker date="1558013527488" expanded="true" signature="250:259" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/BasicOperation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="289">
+          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
           <folding>
-            <element signature="e#69#78#0" expanded="true" />
-            <element signature="e#295#4211#0" />
-            <marker date="1557828820976" expanded="true" signature="251:4973" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="302:338" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="1017:1223" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="1272:1401" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="3522:3527" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="3522:3672" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="3796:4839" ph="..." />
-            <marker date="1557828820976" expanded="true" signature="4094:4301" ph="..." />
+            <element signature="e#70#79#0" expanded="true" />
+            <element signature="e#1925#2039#0" />
+            <element signature="e#2552#2870#0" />
+            <element signature="e#2925#3108#0" />
+            <element signature="e#3164#3558#0" />
+            <element signature="e#3608#4335#0" />
+            <element signature="e#4383#5029#0" />
+            <element signature="e#5086#5343#0" />
+            <element signature="e#7724#7750#0" />
           </folding>
         </state>
       </provider>
