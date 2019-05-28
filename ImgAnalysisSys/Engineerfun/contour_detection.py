@@ -4,6 +4,8 @@
 __author__ = "Simon Liu"
 import cv2
 import numpy as np
+from collections import Counter
+from matplotlib import pyplot as plt
 from Model.BasicOperation import ImgBasicOperation
 
 
@@ -16,7 +18,17 @@ class ContourDetection(object):
         img2 = cv2.resize(self.basicop.acquire_image_info(img2, 0), (150, 200))
         st2_1 = cv2.subtract(img1, img2)
         st2_2 = cv2.cvtColor(cv2.subtract(img1, img2), cv2.COLOR_BGR2GRAY)
-        # kernel = np.ones((11, 11), np.float32) / 25
+
+        qqq = Counter(st2_2.flatten())
+        xs = max(qqq, key=qqq.get)
+        qqq[xs] = 0
+        # print qqq
+        x_time = [i for i in qqq.keys()]
+        y_num = [value for value in qqq.values()]
+
+        # b = [i for i, _ in enumerate(qqq)]
+        plt.plot(x_time, y_num, 'g-', label='variance')  # 绿色实线
+        plt.show()
 
         blur = cv2.GaussianBlur(st2_1, (11, 11), 0)  # 高斯模糊
         # dst = cv2.filter2D(st2_1, -1, kernel)
@@ -34,4 +46,4 @@ class ContourDetection(object):
 
 if __name__ == '__main__':
     basicop = ContourDetection()
-    basicop.compare_difference_with_two_image('img1.JPG', 'img2.JPG')
+    basicop.compare_difference_with_two_image('img1.jpg', 'img2.jpg')

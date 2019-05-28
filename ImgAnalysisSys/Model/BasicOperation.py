@@ -6,9 +6,11 @@ __author__ = "Simon Liu"
 
 import os
 import time
+import csv
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+from pandas import DataFrame
 
 TEMPLETE_FILE_PATH = os.path.join('/'.join(os.path.dirname(__file__).split('/')[:-1]), 'Templete')
 
@@ -69,7 +71,7 @@ class ImgBasicOperation(object):
         :param flag: read_Model 0-cv2.IMREAD_UNCHANGED,1-IMREAD_COLOR,3-IMREAD_GRAYSCALE
         :return: image obj(numpy.ndarray)
         """
-        img = cv2.imread(self.getfilepath(filename), self.parse_imageread_model(flag))
+        img = cv2.resize(cv2.imread(self.getfilepath(filename), self.parse_imageread_model(flag)), (300, 300))
         if img is not None:
             # print cv2.split(img)[0]
             return img
@@ -287,7 +289,11 @@ class DrawingBasicOperation(object):
         self.show_window(self.bg_img)
 
 
+class DataOperation(object):
+    def __init__(self):
+        pass
 
-
-
+    def write_data_to_csv(self, data, filename):
+        if isinstance(data, np.ndarray):
+           DataFrame(data).to_csv(filename)
 

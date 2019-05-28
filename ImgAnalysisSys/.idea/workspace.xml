@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c247167-6ccc-47a4-9850-c55caf2025b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Engineerfun/color_recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineerfun/contour_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engineerfun/OSTU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engineerfun/filtering_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engineerfun/addlogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Engineerfun/add_logo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engineerfun/contour_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Engineerfun/contour_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/BasicOperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/BasicOperation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,36 +18,42 @@
     <session id="-594872653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="JPG" value="6" />
-          <entry key="jpeg" value="2" />
-          <entry key="jpg" value="2" />
-          <entry key="png" value="9" />
-          <entry key="py" value="13" />
+          <entry key="JPG" value="9" />
+          <entry key="csv" value="11" />
+          <entry key="jpeg" value="4" />
+          <entry key="jpg" value="9" />
+          <entry key="png" value="10" />
+          <entry key="py" value="31" />
+          <entry key="t1" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="19" />
-          <entry key="Python" value="13" />
+          <entry key="CSV" value="11" />
+          <entry key="Image" value="32" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="15" />
-          <entry key="py" value="5710" />
+          <entry key="dummy" value="17" />
+          <entry key="py" value="10606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="5710" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="10606" />
         </counts>
       </usages-collector>
     </session>
@@ -56,41 +63,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/BasicOperation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            <state relative-caret-position="4380">
+              <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
               <folding>
                 <element signature="e#70#79#0" expanded="true" />
-                <element signature="e#1925#2039#0" />
-                <element signature="e#5604#8970#0" />
-                <element signature="e#7089#7123#0" />
-                <element signature="e#7943#7969#0" />
-                <element signature="e#9014#11088#0" />
+                <element signature="e#8005#8031#0" />
+                <marker date="1559038507384" expanded="true" signature="11183:11357" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engineerfun/add_logo.py">
+        <entry file="file://$PROJECT_DIR$/Engineerfun/filtering_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
-                <marker date="1558021579071" expanded="true" signature="135:140" ph="..." />
-                <marker date="1558021579071" expanded="true" signature="250:259" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engineerfun/color_recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-              <folding>
-                <element signature="e#69#79#0" expanded="true" />
-                <marker date="1558081009097" expanded="true" signature="200:972" ph="..." />
+                <marker date="1559038128583" expanded="true" signature="543:548" ph="..." />
+                <marker date="1559038128583" expanded="true" signature="2988:2993" ph="..." />
+                <marker date="1559038128583" expanded="true" signature="2988:3329" ph="..." />
+                <marker date="1559038128583" expanded="true" signature="5854:5855" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,11 +92,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Engineerfun/contour_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="583">
+              <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
               <folding>
                 <element signature="e#68#78#0" expanded="true" />
-                <marker date="1558085739139" expanded="true" signature="182:187" ph="..." />
+                <marker date="1559024813470" expanded="true" signature="251:256" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,6 +111,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>50</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -127,18 +125,20 @@
         <option value="$PROJECT_DIR$/Model/test.py" />
         <option value="$PROJECT_DIR$/Engineerfun/__init__.py" />
         <option value="$PROJECT_DIR$/Model/__init__.py" />
-        <option value="$PROJECT_DIR$/Model/BasicOperation.py" />
         <option value="$PROJECT_DIR$/Engineerfun/addlogo.py" />
         <option value="$PROJECT_DIR$/Engineerfun/specific_color.py" />
         <option value="$PROJECT_DIR$/Engineerfun/color_recognition.py" />
+        <option value="$PROJECT_DIR$/Engineerfun/boxblur.py" />
+        <option value="$PROJECT_DIR$/Engineerfun/OSTU.py" />
         <option value="$PROJECT_DIR$/Engineerfun/contour_detection.py" />
+        <option value="$PROJECT_DIR$/Engineerfun/filtering_algorithm.py" />
+        <option value="$PROJECT_DIR$/Model/BasicOperation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="193" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1209" />
+    <option name="width" value="1440" />
     <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -147,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,21 +160,10 @@
               <item name="ImgAnalysisSys" type="462c0819:PsiDirectoryNode" />
               <item name="Engineerfun" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ImgAnalysisSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImgAnalysisSys" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImgAnalysisSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImgAnalysisSys" type="462c0819:PsiDirectoryNode" />
-              <item name="Templete" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.contour_detection">
+  <component name="RunManager" selected="Python.filtering_algorithm">
     <configuration name="BasicOperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImgAnalysisSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="addlogo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="OSTU" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImgAnalysisSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +220,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Engineerfun/add_logo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Engineerfun/OSTU.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,6 +250,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="filtering_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ImgAnalysisSys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Engineerfun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Engineerfun/filtering_algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="specific_color" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImgAnalysisSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,41 +292,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ImgAnalysisSys" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.BasicOperation" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.addlogo" />
       <item itemvalue="Python.specific_color" />
       <item itemvalue="Python.contour_detection" />
+      <item itemvalue="Python.OSTU" />
+      <item itemvalue="Python.filtering_algorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.filtering_algorithm" />
+        <item itemvalue="Python.OSTU" />
         <item itemvalue="Python.contour_detection" />
         <item itemvalue="Python.specific_color" />
-        <item itemvalue="Python.addlogo" />
         <item itemvalue="Python.BasicOperation" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -333,16 +323,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2003367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18957011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18674698" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32596686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14502762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -358,38 +348,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Templete/Peppa.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Templete/test.png" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-297963640/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11075" column="37" selection-start-line="11075" selection-start-column="35" selection-end-line="11075" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/test.py" />
-    <entry file="file://$PROJECT_DIR$/Templete/box.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/cm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="172" selection-start-line="172" selection-end-line="172" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3136" column="29" selection-start-line="3136" selection-start-column="25" selection-end-line="3136" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/test.jpeg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Templete/opencv_logo.png">
       <provider selected="true" editor-type-id="images" />
@@ -401,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engineerfun/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-297963640/cv2/cv2/cuda_GpuMat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -415,20 +389,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engineerfun/color_recognition.py">
+    <entry file="file://$PROJECT_DIR$/Templete/img2.png" />
+    <entry file="file://$PROJECT_DIR$/Templete/img1.png" />
+    <entry file="file://$PROJECT_DIR$/Templete/img2.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/dif2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/test.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/Peppa.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/Lena.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/img1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templete/dif1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/data2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-          <folding>
-            <element signature="e#69#79#0" expanded="true" />
-            <marker date="1558081009097" expanded="true" signature="200:972" ph="..." />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Engineerfun/add_logo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="120">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="27" />
           <folding>
             <marker date="1558021579071" expanded="true" signature="135:140" ph="..." />
@@ -437,43 +439,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/img2.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Model/data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/img1.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Model/data3.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/Lena.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/BasicOperation.py">
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        <state relative-caret-position="84">
+          <caret line="3136" column="29" selection-start-line="3136" selection-start-column="25" selection-end-line="3136" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-297963640/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2662" column="4" selection-start-line="2662" selection-start-column="4" selection-end-line="2662" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="175" column="4" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/color_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/pandas/core/internals/construction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/t1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/t1.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/myprojectenv/data_analysis/lib/python2.7/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1630">
+          <caret line="377" column="8" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/t2.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/OSTU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engineerfun/filtering_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#70#79#0" expanded="true" />
-            <element signature="e#1925#2039#0" />
-            <element signature="e#5604#8970#0" />
-            <element signature="e#7089#7123#0" />
-            <element signature="e#7943#7969#0" />
-            <element signature="e#9014#11088#0" />
+            <marker date="1559038128583" expanded="true" signature="543:548" ph="..." />
+            <marker date="1559038128583" expanded="true" signature="2988:2993" ph="..." />
+            <marker date="1559038128583" expanded="true" signature="2988:3329" ph="..." />
+            <marker date="1559038128583" expanded="true" signature="5854:5855" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/img2.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templete/img1.JPG">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Model/BasicOperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
+          <folding>
+            <element signature="e#70#79#0" expanded="true" />
+            <element signature="e#8005#8031#0" />
+            <marker date="1559038507384" expanded="true" signature="11183:11357" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Engineerfun/contour_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="583">
+          <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
           <folding>
             <element signature="e#68#78#0" expanded="true" />
-            <marker date="1558085739139" expanded="true" signature="182:187" ph="..." />
+            <marker date="1559024813470" expanded="true" signature="251:256" ph="..." />
           </folding>
         </state>
       </provider>
