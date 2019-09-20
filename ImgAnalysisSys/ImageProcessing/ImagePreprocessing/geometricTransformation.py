@@ -111,20 +111,34 @@ class ProjectionTransformation(object):
     """
     投影变换
     """
-    def __init__(self):
-        pass
+    def __init__(self, filename):
+        self.__filename = filename
+
+    def p_transform(self):
+        img = cv2.imread(self.__filename)
+        h, w = img.shape[:2]
+        src = np.array([[0, 0], [w-1, 0], [0, h-1], [w-1, h-1]], np.float32)
+        dst = np.array([[50, 50], [w/3, 50], [50, h-1], [w-1, h-1]], np.float32)
+        P = cv2.getPerspectiveTransform(src, dst)  # 计算投影矩阵
+        r = cv2.warpPerspective(img, P, (w, h), borderValue=0)
+        return r
 
 
 class PolarCoordinateTransformation(object):
     """
     极坐标变换
     """
-    def __init__(self):
+    def __init__(self, filename):
+        self.__filename = filename
+
+    def polar_transform(self):
         pass
 
 
 if __name__ == '__main__':
-    aff = AffineTransformation("circle1.jpg")
-    ni = aff.bilinear_interpolation((500, 500, 3))
+    aff = ProjectionTransformation("circle1.jpg")
+    ni = aff.p_transform()
     cv2.imshow('dst', ni)
     cv2.waitKey(0)
+
+
